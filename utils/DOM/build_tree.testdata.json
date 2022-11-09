@@ -1,0 +1,51 @@
+{
+    "root": {
+        "tag": "div",
+        "attributes": {
+            "id": "test_id_0",
+            "class": "test-class-0",
+            "data-name": "test"
+        },
+        "children": [
+            {
+                "tag": "div",
+                "attributes": {
+                    "id": "test_id_1",
+                    "class": "test-class-1"
+                }
+            },
+            {
+                "tag": "div",
+                "attributes": {
+                    "id": "test_id_2",
+                    "class": "test-class-2"
+                }
+            },
+            {
+                "tag": "text",
+                "text": "random text 1"
+            },
+            {
+                "tag": "div",
+                "children": [
+                    {
+                        "tag": "text",
+                        "text": "random text 2"
+                    },
+                    {
+                        "tag": "strong",
+                        "attributes": {
+                            "class": "test-class-strong"
+                        },
+                        "children": [
+                            {
+                                "tag": "test",
+                                "text": "random text inside strong"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
